@@ -4070,6 +4070,7 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  font-size: 150%;
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -10135,6 +10136,7 @@ body {
 #mainNav .navbar-brand {
   color: #000000;
   font-weight: 700;
+  font-size: 200%;
   padding: 0.9rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
@@ -10208,6 +10210,7 @@ body {
   width: 100%;
   height: auto;
   min-height: 35rem;
+  margin-top: 2%;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/welcome.jpg");
   background-position: center;
@@ -10343,7 +10346,8 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 5%;
+  font-size: 300%;
 }
 
 .dropbtn {
@@ -10385,3 +10389,14 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #110710;}
+
+#bookapph1 {
+  color: #ffffff;
+  padding-left: 5%;
+}
+
+.cal {
+  margin: auto;
+  display: block;
+  color: white;
+}
